@@ -1,4 +1,5 @@
-#Main Makefile Raft_C
+#test for Raft_C
+
 SRC_DIR := src
 BIN_DIR := bin
 
