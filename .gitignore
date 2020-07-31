@@ -18,6 +18,8 @@ vgcore.*
 lib/
 /.obj/
 obj/
+/.bin/
+bin/
 /aclocal.m4
 /ar-lib
 /autom4te.cache/
@@ -37,7 +39,6 @@ obj/
 /ltmain.sh
 /missing
 /test-driver
-Makefile
 Makefile.in
 
 *.sln
