@@ -15,9 +15,9 @@ vgcore.*
 .dirstamp
 .deps/
 /.libs/
-/lib/
+lib/
 /.obj/
-/obj/
+obj/
 /aclocal.m4
 /ar-lib
 /autom4te.cache/
