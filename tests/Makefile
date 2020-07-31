@@ -1,12 +1,11 @@
 #test for Raft_C
-
 SRC_DIR := src
 BIN_DIR := bin
 
-EXE := $(BIN_DIR)/raft_server
+EXE := $(BIN_DIR)/raft_tests
 SRC := $(wildcard $(SRC_DIR)/*.c)
 
-CPPFLAGS := -Iinclude -I /usr/include -MMD -MP
+CPPFLAGS := -I /home/ubuntu/raft_C/include -I /usr/include -MMD -MP
 CFLAGS := -Wall
 LDFLAGS := -Llib
 LDLIBS := -lm -luv

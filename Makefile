@@ -2,7 +2,7 @@
 SRC_DIR := src
 BIN_DIR := bin
 
-EXE := $(BIN_DIR)/raft_server
+EXE := $(BIN_DIR)/raft_runtime
 SRC := $(wildcard $(SRC_DIR)/*.c)
 
 CPPFLAGS := -Iinclude -I /usr/include -MMD -MP
