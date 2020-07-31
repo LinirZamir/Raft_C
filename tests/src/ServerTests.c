@@ -7,7 +7,7 @@
  * 
  */
 
-#include <Server.h>
+#include <Raft/Server.h>
 
 /**
  * This is the test fixture for these testrs, providing common 
